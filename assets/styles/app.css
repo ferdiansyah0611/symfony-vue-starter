@@ -1,0 +1,46 @@
+body{
+	box-sizing: border-box;
+	font-family: system-ui;
+	background: black;
+	color: white;
+}
+h2, h5{
+	font-weight: bold;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	place-items: center;
+	height: 100vh;
+	width: fill-available;
+	width: -mox-fill-available;
+	width: -webkit-fill-available;
+}
+.container h2{
+	font-size: 30px;
+}
+.container h5{
+	font-size: 16px;
+}
+.container > div{
+	max-width: 300px;
+	width: 100%;
+	padding: 1em;
+	border: 2px solid #efefef;
+	text-align: center;
+}
+.container button.vue{
+	padding: 1em;
+	outline: none;
+	background: #3eaf7c;
+	border: unset;
+	color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.center{
+	text-align: center;
+}
